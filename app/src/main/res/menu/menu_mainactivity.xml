@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btn_add"
+        android:icon="@drawable/ic_add_white"
+        android:onClick="botonAdd"
+        android:orderInCategory="1"
+        android:title="Agregar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btn_alert"
+        android:icon="@drawable/ic_alarma_white"
+        android:orderInCategory="3"
+        android:title="Alarma"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btn_tool"
+        android:icon="@drawable/ic_tool_white"
+        android:onClick="btnToolAction"
+        android:orderInCategory="2"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+</menu>
